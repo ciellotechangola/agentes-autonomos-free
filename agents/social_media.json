@@ -1,13 +1,10 @@
 {
- "nome": "Agente Social Media Ciellotech",
- "empresa": "Ciellotech Angola",
- "objetivo": "Divulgar tecnologia, inovação e serviços digitais",
- "plataformas": [
-  "facebook",
-  "linkedin",
-  "whatsapp"
- ],
- "tom": "profissional e tecnológico",
- "publicacoes_por_semana": 3,
- "aprendizado": []
+  "nome": "Agente Social Media Ciellotech",
+  "empresa": "Ciellotech Angola",
+  "objetivo": "Divulgar tecnologia, inovação e serviços digitais",
+  "plataformas": ["facebook","linkedin","whatsapp"],
+  "tom": "profissional e tecnológico",
+  "publicacoes_por_semana": 3,
+  "aprendizado": [],
+  "memoria_longa": []
 }
