@@ -1,8 +1,20 @@
+import { gerarPost } from "./socialAgent.js";
+
 export default {
-  fetch(request) {
-    return new Response(
-      "Agente online com sucesso ✅",
-      { headers: { "content-type": "text/plain" } }
-    );
-  }
+
+async fetch(request){
+
+const memoria = {
+empresa:"Ciellotech Angola",
+objetivo:"divulgar tecnologia e inovação"
+};
+
+const post = await gerarPost(memoria);
+
+return new Response(post,{
+headers:{ "content-type":"text/plain"}
+});
+
 }
+
+};
